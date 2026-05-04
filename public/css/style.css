@@ -436,11 +436,6 @@ a.button.dark:hover {
     text-decoration: none;
 }
 
-
-
-
-/* FlexNav */
-
 .flexnav,
 .flexnav li ul {
     width: 100%;
@@ -1168,7 +1163,6 @@ a.button.dark:hover {
     color: #CCC;
 }
 
-/* Case gallery carousel: used in regular case pages such as Mi Tigo */
 .case-carousel-wrap {
     position: relative;
     margin-top: 80px;
@@ -1221,7 +1215,6 @@ a.button.dark:hover {
     right: -24px;
 }
 
-/* Project hero carousel: used by project-style cases such as Villa Mascotas */
 .project-hero-carousel {
     position: relative;
     width: 100vw;
@@ -2718,5 +2711,58 @@ textarea {
     }
     .sidebar {
         display: block;
+    }
+}
+
+@media all and (max-width: 800px) {
+    #header {
+        padding: 0;
+        height: 80px;
+    }
+
+    #header .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    #header .header-wrapper {
+        position: relative;
+        height: 80px;
+        display: block;
+    }
+
+    #header .header-wrapper #logo {
+        float: left;
+        padding-left: 0;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    #header .header-wrapper #logo a {
+        display: flex;
+        align-items: center;
+    }
+
+    #header nav {
+        position: static;
+        float: none;
+        padding: 0;
+        background: transparent;
+    }
+
+    .menu-button {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0;
+        padding: 0;
+        transform: translateY(-50%);
+        text-align: right;
     }
 }
