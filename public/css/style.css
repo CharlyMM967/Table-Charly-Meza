@@ -2869,8 +2869,8 @@ h6 {
 
 @media all and (max-width: 767px) {
     #content-wrapper > .container {
-        padding-left: 38px;
-        padding-right: 38px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
     #content-wrapper > .container .row {
