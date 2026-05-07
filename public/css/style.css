@@ -2766,3 +2766,57 @@ textarea {
         text-align: right;
     }
 }
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#content-wrapper,
+.content,
+.container,
+.row {
+    max-width: 100%;
+}
+
+p,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+@media all and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .about-me,
+    .post-content-wrap,
+    .page-title,
+    .container {
+        overflow-x: hidden;
+    }
+
+    .about-me a,
+    .post-content-wrap a,
+    .static-page a {
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .about-me .col-md-8,
+    .about-me .col-sm-12,
+    [class*="col-"] {
+        max-width: 100%;
+    }
+}
