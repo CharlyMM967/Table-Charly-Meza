@@ -2866,3 +2866,20 @@ h6 {
         margin-top: 0 !important;
     }
 }
+
+@media all and (max-width: 767px) {
+    #content-wrapper > .container {
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+
+    #content-wrapper > .container .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #content-wrapper > .container [class*="col-"] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
