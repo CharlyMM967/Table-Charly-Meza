@@ -2883,3 +2883,42 @@ h6 {
         padding-right: 0;
     }
 }
+
+@media all and (max-width: 767px) {
+    #footer {
+        text-align: center;
+        padding: 35px 0 45px;
+    }
+
+    #footer .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    #footer .copyrights,
+    #footer .footer-socials {
+        position: static !important;
+        transform: none !important;
+        left: auto !important;
+        bottom: auto !important;
+        width: auto !important;
+        margin: 0;
+        text-align: center;
+    }
+
+    #footer .copyrights p {
+        margin: 0;
+        text-align: center;
+    }
+
+    #footer .footer-socials {
+        margin-top: 0;
+    }
+
+    #footer .footer-socials a {
+        margin: 0;
+    }
+}
