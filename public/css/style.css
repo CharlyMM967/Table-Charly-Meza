@@ -2820,3 +2820,31 @@ h6 {
         max-width: 100%;
     }
 }
+
+@media all and (max-width: 767px) {
+    .row.light-bg {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .row.light-bg > .col-sm-5,
+    .row.light-bg > .col-sm-6 {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .fixed-img2 {
+        width: 100%;
+        height: 520px;
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .about-me {
+        padding: 60px 30px 70px;
+    }
+}
