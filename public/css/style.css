@@ -2845,11 +2845,24 @@ h6 {
     }
 
     .about-me {
-        padding: 35px 30px 55px;
+        padding: 20px 38px 55px !important;
+        margin-top: 0 !important;
     }
 
     .about-me .page-title {
-        padding: 0;
-        margin-top: 0;
+        padding: 0 !important;
+        margin-top: 0 !important;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .row.light-bg .about-me .page-title h1 {
+        margin-top: 0 !important;
+        margin-bottom: 28px;
+    }
+
+    .row.light-bg > .col-sm-6.about-me {
+        margin-top: 0 !important;
     }
 }
