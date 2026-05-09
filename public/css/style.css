@@ -2922,3 +2922,34 @@ h6 {
         margin: 0;
     }
 }
+
+@media all and (max-width: 800px) {
+    .menu-button,
+    .menu-button:focus,
+    .menu-button:active,
+    .menu-button:hover {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .menu-button .touch-button,
+    .menu-button .touch-button:focus,
+    .menu-button .touch-button:active {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .menu-button i,
+    .menu-button span {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+    }
+}
